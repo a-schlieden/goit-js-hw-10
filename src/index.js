@@ -1,6 +1,6 @@
 import './css/styles.css';
-import { fetchCountries } from './fetchcountries';
-import { renderCountryList, renderCountryInfo } from './rendercountres';
+import { fetchCountries } from './fetchCountries';
+import { renderCountryList, renderCountryInfo } from './rendercountries';
 import Notiflix from 'notiflix';
 var debounce = require('lodash.debounce');
 
@@ -9,7 +9,7 @@ Notiflix.Notify.init({
   clickToClose: true,
 });
 
-const DEBOUNCE_DELAY = 300;
+const DEBOUNCE_DELAY = 350;
 
 let getElem = selector => document.querySelector(selector);
 

@@ -1,3 +1,5 @@
+import Notiflix from 'notiflix';
+
 export function fetchCountries(country) {
   const URL = 'https://restcountries.com/v3.1/name/';
   return fetch(
